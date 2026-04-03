@@ -37,12 +37,19 @@ An end-to-end interactive fraud detection dashboard specifically designed for In
 - **Language**: Python 3.8+
 
 ## Project Structure
+
 payments_fraud_dashboard/
+
 ├── app.py # Main Streamlit application
+
 ├── data/ # Data generation & cleaning
+
 ├── models/ # ML model & risk scoring
+
 ├── visualization/ # Charts & UI components
+
 ├── utils/ # Helpers & constants
+
 └── pages/ # Multi-page dashboard
 
 ## Impact
