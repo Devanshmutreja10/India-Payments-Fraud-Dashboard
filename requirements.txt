@@ -1,0 +1,11 @@
+# Create requirements.txt
+echo streamlit==1.25.0 > requirements.txt
+echo pandas==2.0.3 >> requirements.txt
+echo numpy==1.24.3 >> requirements.txt
+echo plotly==5.15.0 >> requirements.txt
+echo scikit-learn==1.3.0 >> requirements.txt
+echo faker==19.3.0 >> requirements.txt
+echo python-dotenv==1.0.0 >> requirements.txt
+
+# Install all requirements
+pip install -r requirements.txt

@@ -1,0 +1,99 @@
+/* assets/style.css */
+
+/* Custom styling for the dashboard */
+.stApp {
+    background-color: #f8f9fa;
+}
+
+.main-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.metric-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.fraud-highlight {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.risk-high {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.risk-medium {
+    color: #fd7e14;
+    font-weight: bold;
+}
+
+.risk-low {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Custom button styling */
+.stButton > button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #f8f9fa;
+}
+
+/* Table styling */
+.dataframe {
+    font-size: 0.9rem;
+}
+
+.dataframe th {
+    background-color: #667eea;
+    color: white;
+    padding: 0.5rem;
+}
+
+/* Alert styling */
+.stAlert {
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #667eea;
+    color: white;
+}
